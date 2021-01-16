@@ -1,0 +1,30 @@
+#root{
+    grid-template-columns: 20% 80%;
+    display: grid;
+    --prim-color:#283149;
+    --card-color:#DBEDF3;
+    color:#404b69; 
+    margin: -8px;   
+}
+button{
+    background: #00818A;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #DBEDF3;
+    font: normal bold 18px "Open Sans",sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    position:relative;
+}
+button:hover{
+    transition: all 0.3s;
+    opacity: 0.7;
+}
+.page-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    grid-column: 2;
+    margin-top: 2%;
+}
