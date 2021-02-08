@@ -10,7 +10,7 @@
     position: absolute;
 }
 .login-panel{
-    background-color: var(--prim-color);
+    background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
     width: 30vw;
     border: 1px solid gray;
     border-radius: 5px;
@@ -30,4 +30,7 @@
     border: none;
     margin: 10px;
     padding-left: 10px;
+}
+#loginHeader {
+    color: #F7F7E8;
 }

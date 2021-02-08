@@ -5,6 +5,9 @@
     margin: 10px;
     min-width: 275px;
     min-height: 200px;
+    font-family: 'Exo 2', sans-serif;;
+    border: 1px solid rgb(21,14,48);
+    border-radius: 5px;
 }
 .bug-card:hover{
     transition: all 0.3s;

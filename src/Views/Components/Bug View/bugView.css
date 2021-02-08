@@ -5,7 +5,8 @@
     border: 1px solid black;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.705);
     border-radius: 5px;
-    background-color: var(--prim-color);
+    background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
+
     margin: 1%;
     display: flex;
     flex-wrap: wrap;

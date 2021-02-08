@@ -21,8 +21,19 @@ export function retrieveBugs(){
         steps:"Open application and it will crash",
         version:"V2.0",
         assigned:"Cody Sullivan",
-        creator:"Darren Waterson",
+        creator:"Relle Mayor",
         priority:3,
+        time:"14:58",
+    }))
+    data.push(new bugModel({
+        _id:23456789,
+        name:"Access Expired",
+        details:"passowrd not working",
+        steps:"Entered new password and no access",
+        version:"V2.0",
+        assigned:"Cody Sullivan",
+        creator:"David Smith",
+        priority:2,
         time:"14:58",
     }))
 

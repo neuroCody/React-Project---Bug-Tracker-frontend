@@ -1,6 +1,6 @@
 .bug-create{
     width: 60vw;
-    background-color: var(--prim-color);
+    background: linear-gradient(rgb(36, 22, 99), rgba(167, 38, 148, 0.993));
     display: flex;
     flex-wrap: wrap;
     margin: auto;
