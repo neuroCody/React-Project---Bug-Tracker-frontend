@@ -26,6 +26,15 @@ export default ()=>{
 
     return(
         <div className="loginBG">
+            <div style={{
+                textAlign: 'center',
+            }}>
+                <h1 style={{
+                    fontSize: 90,
+                    color: '#F7F7E8',
+
+                }}>Bugchain</h1>
+            </div>
             <form className="login-panel">
                 <h1 id="loginHeader">Login:</h1>
                 <input name='name' placeholder='Name' onChange={inputChanged} value={formInput.name}></input>

@@ -5,6 +5,7 @@ import bug from '../../../Models/bugModel'
 
 export default (props)=>{
     const [bugObject, setBugObject] = useState(new BugModel(props.bug))
+    const bugMade = alert('Feature coming soon!')
 
     function inputChanged(e){
         setBugObject({
@@ -35,7 +36,7 @@ export default (props)=>{
                 </select>
                 <label>Application Version:</label>
                 <input name='version' placeholder='Application Version' onChange={inputChanged} value={bugObject.version}></input>
-                <button className="complete-button" type='submit'>{props.title}</button>
+                <button className="complete-button" type='submit' onClick={bugMade}>{props.title}</button>
             </form>
         </div>
     )
